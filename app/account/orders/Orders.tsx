@@ -61,13 +61,6 @@ export function OrderCard ({ order }: { order: Order }) {
                   className="xxxs pd-12 pdx-2 tiny-shadow" 
                   onClick={() => router.push(`/account/order/${order.orderId}`)}
                >Order Details</button>
-               {(order.trackingUrl) && (
-                  <Link className="box fit" href={order.trackingUrl!} target="_blank">
-                     <button 
-                        className="xxxs pd-12 pdx-2 outline-black tiny-shadow"
-                     ><PackageSearch size={16}   /> Track Parcel</button>
-                  </Link>
-               )}
             </div>
          </div>
       </Card>
