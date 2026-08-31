@@ -13,6 +13,7 @@ export async function fulfillCheckout(session: Stripe.Checkout.Session) {
    try {
       // This is the actual important check
       // Only fulfill if stripe says payment has been made
+      console.log(session);
       if (session.payment_status !== "paid") return;
    
       const checkoutId = session.client_reference_id;

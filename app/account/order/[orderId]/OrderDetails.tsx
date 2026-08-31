@@ -67,8 +67,7 @@ type OrderTrackingProps = {
 };
 
 function OrderTracking ({ order }: OrderTrackingProps) {
-   const { trackingNumber, shippingService, shippingCarrier } = { ...order, trackingNumber: "122323232" };
-
+   const { trackingNumber, shippingService, shippingCarrier } = order;
 
    if (!trackingNumber) {
       return (
