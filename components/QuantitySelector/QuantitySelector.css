@@ -1,0 +1,24 @@
+.quantity-selector {
+   width: 100%;
+   max-width: 700px;
+   border: 1px solid #dbdbdb;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   padding: 8px;
+   user-select: none;
+}
+
+.quantity-selector > .btn-decrease,.btn-increase {
+   width: fit-content;
+   padding: 0 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.quantity-selector > .btn-decrease.disabled { opacity: 0.4; cursor: not-allowed; }
+.quantity-selector > .btn-increase.disabled { opacity: 0.4; cursor: not-allowed; }

@@ -4,16 +4,39 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "email:dev": "email dev --port 3001",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "@types/web-push": "^3.6.4",
+    "@types/ws": "^8.18.1",
+    "bufferutil": "^4.1.0",
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.45.2",
+    "framer-motion": "^13.1.0",
+    "lucide-react": "^1.33.0",
+    "neon": "^3.6.0",
     "next": "16.3.1",
+    "next-auth": "^4.24.15",
+    "nodemailer": "^7.0.13",
+    "papaparse": "^5.7.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-email": "^6.9.3",
+    "react-icons": "^5.7.0",
+    "recharts": "^3.10.1",
+    "sonner": "^2.0.8",
+    "stripe": "^22.5.0",
+    "web-push": "^3.6.7",
+    "ws": "^8.21.3"
   },
   "devDependencies": {
+    "@react-email/ui": "^6.9.3",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.1",
+    "@types/papaparse": "^5.5.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5"

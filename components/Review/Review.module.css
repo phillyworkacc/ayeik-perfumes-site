@@ -1,0 +1,31 @@
+.reviewCard {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2rem;
+  border: 1px solid #ececec;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.reviewFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.reviewAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1f2937;
+  color: white;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
