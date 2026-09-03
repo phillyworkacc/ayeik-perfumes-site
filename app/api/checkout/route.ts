@@ -1,5 +1,5 @@
 import { getCurrentUser } from "@/app/actions/user";
-import priceCalculator from "@/config/priceCalculator";
+import priceCalculator from "@/config/priceCalculatorV2";
 import { db } from "@/db";
 import { checkoutSessionsTable, productsTable } from "@/db/schemas";
 import { stripe } from "@/lib/stripe";

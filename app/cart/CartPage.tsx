@@ -15,7 +15,7 @@ import QuantitySelector from "@/components/QuantitySelector/QuantitySelector";
 import CheckoutButton from "@/components/CheckoutButton/CheckoutButton";
 import useUser from "@/hooks/useUser";
 import UpdateShippingAddress from "@/modals/UpdateShippingAddress";
-import priceCalculator from "@/config/priceCalculator";
+import priceCalculator from "@/config/priceCalculatorV2";
 import { formatNumber } from "@/utils/num";
 import { useSession } from "next-auth/react";
 
